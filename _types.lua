@@ -1,0 +1,27 @@
+---@meta
+---@class ForgeDKIdentity
+---@field id string
+---@field firstName string
+---@field lastName string
+---@field dob string
+---@field sex string
+
+---@class ForgeDKDocument
+---@field schemaVersion 1
+---@field typeKey string
+---@field item string
+---@field serial string
+---@field copyId string
+---@field copyNumber integer
+---@field issuedAt integer
+---@field copyIssuedAt integer
+---@field expiresAt integer
+---@field identity ForgeDKIdentity
+---@field photo string
+---@field format 'card'|'a4'
+---@field cityName string
+---@field label string
+---@field body string
+---@field fields {key:string,label:string,value:string}[]
+---@field labels table<string,string>
+---@field appearance table
