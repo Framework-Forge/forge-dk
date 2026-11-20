@@ -4,7 +4,7 @@ game "gta5"
 
 name 'Forge DK'
 author 'Forge — original assets by Byte Labs'
-version '2.0.0'
+version '2.0.2'
 description 'Forge DK — documents and citizen services'
 
 lua54 'yes'
@@ -33,3 +33,5 @@ files {
     'client/**',
     'shared/**'
 }
+
+server_script 'server/version.lua'

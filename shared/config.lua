@@ -1,3 +1,5 @@
+VersionCheck = true
+
 ForgeDK = ForgeDK or {}
 -- Presentation presets supplied for the two document formats. Attachment is always relative to the right hand.
 ForgeDK.Presentations = {
